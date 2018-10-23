@@ -68,4 +68,4 @@ A Java sdk for CoinMex exchange API
 ```java
 	List<CodeInfo> codeInfos = this.coinmexClient.spot().publics().products()
 ```
-- 其他接口调用参照 test 包中的测试用例
+- 其他接口调用参照 test 包中的测试用例，另外由于 coinmex-java-api-sdk 使用了 lombok，请在编译器中安装 lombok 插件
